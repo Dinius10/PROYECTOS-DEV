@@ -1,0 +1,231 @@
+@media (min-width:1200px){
+   .col-especial
+   {
+        width: 20%;
+        float: left ;
+   }
+       
+}
+@media (min-width:992px) and (max-width:1199px){
+    .col-especial
+   {
+        width: 20%;
+        float: left ;
+   }
+   
+   .dropdown-menu li{
+        float:left;
+        display:inline;
+        width:25%;
+   }
+   .navbar-nav>li {
+        height: auto;
+        overflow: hidden;
+    }
+    
+    .redes-sociales-share ul > li > a {
+        font-size: 25px;
+        padding: 0px 4px;
+        width: 35px;
+    }
+}
+
+@media (max-width:1199px) 
+{ 
+    .navbar-brand {
+        padding:5px 15px; 
+        margin-left: 0px !important;
+        height: auto;
+    }
+    
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    
+    
+    .navbar-default .navbar-toggle .icon-bar {
+       /* background-color: #d91b5c;*/
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+
+
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding: 10px 0px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+   .navbar-nav .open .dropdown-menu {
+       position: static;
+       width: auto;
+       margin-top: 0;
+       -webkit-box-shadow: none;
+       box-shadow: none;
+    }
+    
+    .navbar-nav .lista-redes-sociales a:first-child {
+        padding-left: 0px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .logo-isil
+    {
+        text-align: center;
+    }
+
+    .trabajos .contenedor-trabajos {
+          padding-bottom: 29%;
+    }
+    
+    .dropdown-menu li{
+        float:left;
+        display:inline;
+        width:25%;
+   }
+   .navbar-nav>li {
+        height: auto;
+        overflow: hidden;
+    }
+}
+@media (max-width:767px){
+    .dropdown-menu {
+        text-align: left;
+    }
+    
+    .navbar-nav {
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    
+    .navbar-default .navbar-nav>li>a, 
+    .navbar-default .navbar-nav>li>a:focus{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #fff;
+        padding-left: 43px;
+    }
+    
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, 
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+        color: #f60543;
+    }
+    
+    .navbar-nav .open .dropdown-menu {
+        background-color: #281c5a;
+    }
+    
+    .home-seccion-1 {
+        text-align: center;
+        padding: 65px 15px;
+    }
+    
+    .home-seccion-2 .contenedor-proyectos {
+        padding-bottom: 69%;
+    }
+    
+    .meta-trabajo > li {
+        display: block;
+        float: none;
+        margin-bottom: 10px;
+    }
+    
+    .contenedor-titulo {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .contenedor-titulo ul.categoria li {
+        width: 100%;
+    }
+    
+    .redes-sociales-share .row-fluid-separador,
+    .wrapper-blanco .redes-sociales-share .row-fluid-separador {
+        padding:0px;
+        border-left: none;
+    }
+    
+    .trabajos .contenedor-trabajos {
+        padding-bottom: 59%;
+    }
+    
+    .articulos {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    
+    .preguntas {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    
+    .agenda {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    
+    .detalle-articulo .cuadrado-fecha {
+        background-color: #f60543;
+        color: #fff;
+        width: 125px;
+        height: 125px;
+        text-align: center;
+        display: inline-block;
+        font-family: 'Ubuntu-M';
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 20px;
+    }
+    
+    .detalle-articulo {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: justify;        
+    }
+    
+    .comentarios h3 {
+        margin-bottom: 25px;
+    }
+    
+    .comentarios form .content-form-submit input[type=submit] {
+        width: 100%;
+    }
+    
+    .row-fluid-comentarios {
+        padding: 0px 15px;
+    }
+    
+    footer
+    {
+       text-align: center; 
+    }
+    
+    footer ul > li
+    {
+       margin-bottom: 10px; 
+    }
+}
